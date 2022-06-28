@@ -5,4 +5,4 @@ for alpha in range(ord('z'), ord('a') - 1, -1):
         diff = 0
     else:
         diff = 32
-    print(f'{(chr(alpha - diff))}', end='')
+    print('{}'.format(chr(alpha - diff)), end='')
