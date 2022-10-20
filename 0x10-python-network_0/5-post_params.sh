@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
-# takes a URL request and displays the body of the response
-curl -sX POST "$1" -d "email=test@gmail.com&subject=I will always be here for PLD"
+#!/bin/bash
+# Bash scripts that sends a POST request to a given URL.
+curl -s -X POST -d "email=test@gmail.com&subject=I will always be here for PLD" "$1"
